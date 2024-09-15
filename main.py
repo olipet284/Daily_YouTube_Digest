@@ -7,6 +7,7 @@ from html import unescape
 from email.message import EmailMessage
 from dotenv import load_dotenv
 import os
+from channels import channels
 
 load_dotenv()
 
